@@ -1,9 +1,9 @@
 package org.ss.orchestre.couplagefort;
 
-public class Batterie {
+public class Batterie implements Instrument {
 
     public void afficher() {
-        System.out.println("Je suis une batterie...");
+        System.out.println("Je suis un batteur...");
     }
 
     public void jouer() {
